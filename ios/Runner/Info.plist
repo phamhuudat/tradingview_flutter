@@ -4,6 +4,39 @@
 <dict>
 	<key>NSAppTransportSecurity</key>
 	<dict>
+	    			<key>m.fpts.com.vn</key>
+        			<dict>
+        				<key>NSExceptionMinimumTLSVersion</key>
+        				<string>TLSv1.0</string>
+        				<key>NSExceptionRequiresForwardSecrecy</key>
+        				<false/>
+        				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+        				<true/>
+        				<key>NSIncludesSubdomains</key>
+        				<true/>
+        			</dict>
+        			<key>fpts.com.vn</key>
+        			<dict>
+        				<key>NSExceptionMinimumTLSVersion</key>
+        				<string>TLSv1.0</string>
+        				<key>NSExceptionRequiresForwardSecrecy</key>
+        				<false/>
+        				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+        				<true/>
+        				<key>NSIncludesSubdomains</key>
+        				<true/>
+        			</dict>
+        			<key>liveprice3.fpts.com.vn</key>
+        			<dict>
+        				<key>NSExceptionMinimumTLSVersion</key>
+        				<string>TLSv1.0</string>
+        				<key>NSExceptionRequiresForwardSecrecy</key>
+        				<false/>
+        				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+        				<true/>
+        				<key>NSIncludesSubdomains</key>
+        				<true/>
+        			</dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
